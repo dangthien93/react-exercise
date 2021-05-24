@@ -13,7 +13,7 @@ interface UserLoginButtonStateProps {
 export default class UserLoginButton extends PureComponent<UserLoginButtonStateProps, UserLoginButtonState> {
   state: UserLoginButtonState = {
     modalVisible: false,
-    textValue: "",
+    textValue: ""
   };
   private openModal = () => this.setState({ modalVisible: true });
   private closeModal = () => this.setState({ modalVisible: false });
